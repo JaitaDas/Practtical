@@ -6,7 +6,7 @@ if(a+b < 10) {
 System.outprintln("a + b is less than 10");
 }
  else{
-System.outprintln("a + b is greater than 10");
+System.outprintln("a + b is greater than 10");      //print the statement
 }
 }
 }
