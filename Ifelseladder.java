@@ -8,7 +8,7 @@ System.out.println("name is Neha");
 }else if(name =="Amit"){
 System.out.println("name is amit");
 }else{
-System.out.println(name);
+System.out.println(name);     //print a statement
 }
 }
 }
