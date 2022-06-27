@@ -15,7 +15,7 @@ System.out.printl(address.split(",")[0]);
 }
 }
 else {
-System.out.println("You are not living in India"); 
+System.out.println("You are not living in India");    //print the statement
 }
 }
 }
