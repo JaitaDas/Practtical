@@ -11,6 +11,7 @@ public class Staticvariable{
      void display() {
     	 System.out.println(rollno+" "+name+" "+college);
      }
+     //Creating another class
      public class Staticvariable1{
     	 public static void main(String[] args) { 
     		//Creating an objects 
