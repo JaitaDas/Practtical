@@ -1,23 +1,28 @@
-class Animal { //parent class  
-    void Action_eat()
-    {
-        System.out.print("Eating");
-    }  
-}  
+package com;
+public class Animal {  //super class
+     void eat() {
+		System.out.println("Eating"); }  
+		}  
+		class Tiger extends Animal{  //sub class of Animal
+		void eat(){  //method1
+	    System.out.println("Tiger eats meat"); }  
+		}  
+		class Rabbit extends Animal{ //sub class of Animal
+		void eat(){   //method2
+		System.out.println("Rabbit eats carrots"); }  
+		}  
+		class Frog extends Animal{ //sub class of Animal 
+		void eat(){
+		System.out.println("Frog eats grasshopper"); }  
+		}  
+		class Test {  //main class
+		public static void main(String[] args){  
+        Animal tiger = new Animal();  //creating object
+		tiger.eat();     //called method
+		Animal rabbit = new Animal();  
+		rabbit.eat();  
+		Animal frog = new Animal();  
+		frog.eat();  
+		}
+	}  
 
-class Cat extends Animal  {  //child class 
-    void Action_bark()
-    {
-        System.out.print("Mewing");
-         
-    }  
-}  
-class Main{    //main class
-    public static void main(String args[]){  
-        Cat c=new Cat();     //create an object of child class
-        System.out.print("The cat is ");
-        c.Action_bark(); 
-        System.out.print("\nThe cat is ");
-        c.Action_eat();     
-    }
-}  
