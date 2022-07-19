@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Arraysumavg
+public class Arraysumavg    //class
 {
     public static void main(String[] args) 
     {
@@ -10,7 +10,7 @@ public class Arraysumavg
         n = s.nextInt();
         int a[] = new int[n];
         System.out.println("Enter all the elements:");
-        for(int i = 0; i < n ; i++)
+        for(int i = 0; i < n ; i++)   //print the logic
         {
             a[i] = s.nextInt();
             sum = sum + a[i];
