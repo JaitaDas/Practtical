@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Arrayoddsum {
+public class Arrayoddsum {  //class
 	private static Scanner sc;
 	public static void main(String[] args) 
 	{
@@ -13,7 +13,7 @@ public class Arrayoddsum {
 		int [] a = new int[Size];
 		
 		System.out.print(" Please Enter " + Size + " elements of an Array  : ");
-		for (i = 0; i < Size; i++)
+		for (i = 0; i < Size; i++)   //logic for print
 		{
 			a[i] = sc.nextInt();
 		}   
