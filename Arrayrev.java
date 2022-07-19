@@ -2,7 +2,7 @@ import java.util.Scanner;
 class Arrayrev
 {
     public static void main(String[] args) 
-    {
+    {    //class
         int n, res,i,j=0;
         Scanner s = new Scanner(System.in);
         System.out.print("Enter number of elements in the array:");
@@ -15,7 +15,7 @@ class Arrayrev
             array[i] = s.nextInt();
         }
         System.out.println("Reverse of an array is :");
-        for( i=n;i>0 ; i--,j++)
+        for( i=n;i>0 ; i--,j++)   //logic for print
         {
             rev[j] = array[i-1];
             System.out.println(rev[j]);
